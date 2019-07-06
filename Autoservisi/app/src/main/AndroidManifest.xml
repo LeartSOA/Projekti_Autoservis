@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="autoservisi.Autoservisi.MakinaIme">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="autoservisi.Autoservisi.MakinaIme.app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="autoservisi.Autoservisi.MakinaIme.activities.WelcomeActivity"></activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name="autoservisi.Autoservisi.MakinaIme.activities.Location" />
+        <activity
+            android:name="autoservisi.Autoservisi.MakinaIme.activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="autoservisi.Autoservisi.MakinaIme.activities.NewVehicleActivity"
+            android:label="@string/title_activity_new_vehicle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="autoservisi.Autoservisi.MakinaIme.activities.NewServiceActivity"
+            android:label="@string/title_activity_new_service"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="autoservisi.Autoservisi.MakinaIme.activities.NewExpenseActivity"
+            android:label="@string/title_activity_new_expense"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="autoservisi.Autoservisi.MakinaIme.activities.NewRefuelingActivity"
+            android:label="@string/title_activity_new_refueling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="autoservisi.Autoservisi.MakinaIme.activities.NewInsuranceActivity"
+            android:label="@string/title_activity_new_insurance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="autoservisi.Autoservisi.MakinaIme.activities.Login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="autoservisi.Autoservisi.MakinaIme.activities.ViewVehicleActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="autoservisi.Autoservisi.MakinaIme.activities.ViewActivity"
+            android:label="@string/title_activity_view"
+            android:parentActivityName="autoservisi.Autoservisi.MakinaIme.activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="autoservisi.Autoservisi.MakinaIme.activities.MainActivity" />
+        </activity>
+
+        <receiver
+            android:name="autoservisi.Autoservisi.MakinaIme.broadcasts.NotificationReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver android:name="autoservisi.Autoservisi.MakinaIme.broadcasts.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="autoservisi.Autoservisi.MakinaIme.broadcasts.AlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name="autoservisi.Autoservisi.MakinaIme.services.ResetAlarmManagerService" />
+    </application>
+
+</manifest>

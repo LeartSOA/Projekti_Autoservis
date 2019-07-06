@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWelcome2"
+        android:gravity="center"
+        android:orientation="vertical">
+        
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_width="@dimen/img_size"
+            android:layout_height="@dimen/img_size"
+            app:srcCompat="@drawable/ic_save_white"
+            android:tint="@color/colorTextIcons"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Makinat e regjistruara"
+            android:textSize="@dimen/slide_title"
+            android:textColor="@color/colorTextIcons"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ruani te dhenat dhe qasjuni me vone"
+            android:textSize="@dimen/slide_text"
+            android:textColor="@color/colorTextIcons"
+            android:textAlignment="center"
+            android:paddingStart="@dimen/text_padding"
+            android:paddingEnd="@dimen/text_padding"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+    </LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_menu_about"
+            android:title="Info" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_menu_service"
+            android:title="Riparimet" />
+        <item
+            android:id="@+id/nav_expenses"
+            android:icon="@drawable/ic_menu_expense"
+            android:title="Shpenzimet" />
+        <item
+            android:id="@+id/nav_refuelings"
+            android:icon="@drawable/ic_menu_refueling"
+            android:title="Mbushjet" />
+        <item
+            android:id="@+id/nav_insurances"
+            android:icon="@drawable/ic_menu_insurance"
+            android:title="Sigurimet" />
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_menu_statistic"
+            android:title="Statistikat" />
+        <item
+            android:id="@+id/nav_my_cars"
+            android:icon="@drawable/ic_menu_car"
+            android:title="Makinat e mia" />
+    </group>
+</menu>

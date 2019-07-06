@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">MakinaIme</string>
+
+    <string name="navigation_drawer_open">Hap naviguesin</string>
+    <string name="navigation_drawer_close">Mbyll Naviguesin</string>
+    <string name="action_settings">Parametrat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="car_name">Emri i makines</string>
+    <string name="car_brand">Tipi</string>
+    <string name="car_model">Modeli</string>
+    <string name="notes">Shenim</string>
+    <string name="title_activity_new_vehicle">Makine e Re</string>
+    <string name="action_save">Ruaj</string>
+    <string name="title_activity_new_service">Riparim i Ri</string>
+    <string name="title_activity_new_expense">Shpenzim i Ri</string>
+    <string name="title_activity_new_refueling">Mbushje e Re</string>
+    <string name="title_activity_new_insurance">Sigurim i Ri</string>
+    <string name="odometer">Kilometrazhi</string>
+    <string name="horse_power">Kuaj Fuqi</string>
+    <string name="cubic_centimeters">Centimetra Kub</string>
+    <string name="manufacture_date">Data e prodhimit</string>
+    <string name="capacity">Kapaciteti</string>
+    <string name="consumption">Konsumi</string>
+    <string name="registration_plate">Tabela e regjistrimit</string>
+    <string name="vin_plate">Numri i Shasise</string>
+    <string name="date">Data</string>
+    <string name="price">Cmimi</string>
+    <string name="company_name">Kompania</string>
+    <string name="expiration_date">Data e skadimit</string>
+    <string name="expiration_time">Ora e skadimit</string>
+    <string name="notification_date">Data e njoftimit</string>
+    <string name="add_fuel_tank">Shto nje rezervuar</string>
+    <string name="add">Shto</string>
+
+    <string name="next">Tjeter</string>
+    <string name="got_it">E kapa!</string>
+    <string name="title_slide_1">Miresevini tek MakinaIme!</string>
+    <string name="text_slide_1">Menaxhoni makinen me perkushtim</string>
+    <string name="title_slide_2">Regjistrat e makinave</string>
+    <string name="text_slide_2">Ruani aktivitetet e makines tuaj dhe qasuni me vone&#8230;</string>
+    <string name="title_slide_3">Statistikat e makines</string>
+    <string name="text_slide_3">Shikoni statistikat e makines!</string>
+    <string name="new_fuel_tank">Rezervuar i Ri</string>
+    <string name="fuel_tank">Rezervuari</string>
+
+    <string-array name="vehicle_types">
+        <item>Makine</item>
+        <item>Bus</item>
+        <item>Motoqilete</item>
+        <item>Kamion</item>
+    </string-array>
+
+    <string-array name="fuel_types">
+        <item>Diesel</item>
+        <item>Benzine</item>
+        <item>Electrik</item>
+        <item>Gaz</item>
+    </string-array>
+
+    <string-array name="fuel_units">
+        <item>L</item>
+        <item>m<sup>3</sup></item>
+        <item>kWh</item>
+    </string-array>
+
+    <string-array name="expense_types">
+        <item>Parking</item>
+        <item>Tolls</item>
+        <item>Lavazh</item>
+        <item>Denim</item>
+        <item>Takse</item>
+        <item>Registrim</item>
+    </string-array>
+
+    <string-array name="length_unit">
+        <item>km</item>
+        <item>mi</item>
+    </string-array>
+
+    <string name="fuel_type_placeholder">Tipi i karburantit: %s</string>
+    <string name="capacity_placeholder">Kapaciteti: %d</string>
+    <string name="consumption_placeholder">Konsumi: %.1f</string>
+    <string name="price_placeholder">Cmimi: <b>%s</b></string>
+    <string name="fuel_price_placeholder">Cmimi i karburantit: <b>%s</b></string>
+    <string name="date_placeholder">Data: %s</string>
+    <string name="expiration_date_placeholder">Data e skadimit: <b>%s</b></string>
+    <string name="current_odometer_placeholder">Kilometrazhi aktual: <b>%d</b></string>
+
+
+    <string name="fuel_price">Cmimi i karburantit</string>
+    <string name="time">Koha</string>
+    <string name="service_type">Lloji i riparimit</string>
+    <string name="full_fuel_tank">Rezervuari i mbushur</string>
+    <string name="yes">Po</string>
+    <string name="no">Jo</string>
+    <string name="quantity">Sasia</string>
+    <string name="select_color">Zgjidh ngjyren:</string>
+    <string name="select_notification_method">Zgjidh menyren e njoftimit</string>
+    <string name="by_date">Sipas dates</string>
+    <string name="by_odometer">Sipas Kilometrazhit</string>
+    <string name="target_odometer">Kilometrazhi i targetuar</string>
+    <string name="notification_time">Koha e targetuar</string>
+    <string name="new_company">Kompani e Re</string>
+    <string name="title_activity_view">Shiko aktivitetin</string>
+    <string name="export">Eksporto</string>
+    <string name="delete">Fshij</string>
+    <string name="action_delete">Fshij</string>
+    <string name="import_vehicle">Importo makinen</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-5561372550558397/5266340262</string>
+
+    <string name="reminder_distance_in_advance">Perkujto ditancen e ardhshme</string>
+    <string name="reset_app">Reseto aplikacionin</string>
+    <string name="length_unit">Njesi e gjatesise:</string>
+    <string name="currency_unit">Valuta:</string>
+    <string name="costs">Shpenzimet</string>
+    <string name="nothing_to_show">Nuk keni regjistruar asgje, regjistroni diqka</string>
+    <string name="color">Ngjyra</string>
+    <string name="title_activity_map">Map</string>
+</resources>

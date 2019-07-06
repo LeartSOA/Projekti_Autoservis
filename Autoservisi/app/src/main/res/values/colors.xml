@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--App theme colors-->
+  <!--  <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#512DA8</color>
+    <color name="colorAccent">#009688</color>
+    <color name="colorPrimaryLight">#D1C4E9</color>
+    <color name="colorTextIcons">#FFFFFF</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>-->
+
+    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimaryDark">#5D4037</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorPrimaryLight">#D7CCC8</color>
+    <color name="colorTextIcons">#FFFFFF</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+
+    <!--ColorPicker primary colors-->
+    <color name="red">#F44336</color>
+    <color name="pink">#E91E63</color>
+    <color name="purple">#9C27B0</color>
+    <color name="blue">#2196F3</color>
+    <color name="green">#4CAF50</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="orange">#FF9800</color>
+    <color name="brown">#795548</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="black">#424242</color>
+    <array name="vehicles_primary_colors">
+        <item>@color/red</item>
+        <item>@color/pink</item>
+        <item>@color/purple</item>
+        <item>@color/blue</item>
+        <item>@color/black</item>
+        <item>@color/brown</item>
+        <item>@color/green</item>
+        <item>@color/yellow</item>
+        <item>@color/orange</item>
+        <item>@color/grey</item>
+        <item>@color/colorTextIcons</item>
+    </array>
+
+    <!--ColorPicker colors dark-->
+    <color name="white_dark">#BDBDBD</color>
+    <color name="red_dark">#B71C1C</color>
+    <color name="pink_dark">#880E4F</color>
+    <color name="purple_dark">#4A148C</color>
+    <color name="blue_dark">#0D47A1</color>
+    <color name="green_dark">#1B5E20</color>
+    <color name="yellow_dark">#F57F17</color>
+    <color name="orange_dark">#E65100</color>
+    <color name="brown_dark">#3E2723</color>
+    <color name="black_dark">#000000</color>
+    <array name="vehicles_dark_colors">
+        <item>@color/red_dark</item>
+        <item>@color/pink_dark</item>
+        <item>@color/purple_dark</item>
+        <item>@color/blue_dark</item>
+        <item>@color/black_dark</item>
+        <item>@color/brown_dark</item>
+        <item>@color/green_dark</item>
+        <item>@color/yellow_dark</item>
+        <item>@color/orange_dark</item>
+        <item>@color/colorPrimaryText</item>
+        <item>@color/white_dark</item>
+    </array>
+
+    <!--Welcome screens background colors-->
+    <color name="colorWelcome1">#F57C00</color>
+    <color name="colorWelcome2">#8BC34A</color>
+    <color name="colorWelcome3">#03A9F4</color>
+
+    <!--Active dots welcome screen-->
+    <color name="colorActiveViews1">#FFEB3B</color>
+    <color name="colorActiveViews2">#CDDC39</color>
+    <color name="colorActiveViews3">#536DFE</color>
+    <array name="activeColors">
+        <item>@color/colorActiveViews1</item>
+        <item>@color/colorActiveViews2</item>
+        <item>@color/colorActiveViews3</item>
+    </array>
+
+    <!--Inactive dots welcome screen-->
+    <color name="colorInactiveViews1">#FFC107</color>
+    <color name="colorInactiveViews2">#388E3C</color>
+    <color name="colorInactiveViews3">#303F9F</color>
+    <array name="inactiveColors">
+        <item>@color/colorInactiveViews1</item>
+        <item>@color/colorInactiveViews2</item>
+        <item>@color/colorInactiveViews3</item>
+    </array>
+</resources>
